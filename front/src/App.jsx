@@ -3,7 +3,11 @@ import {
   BrowserRouter as Router,
   Routes, Route, Link
 } from 'react-router-dom'
+import "./index.css"
+
 import Home from "./Mainpage.jsx"
+import Webdev from "./Webdev.jsx"
+import Legal from "./Legal.jsx"
 
 function App() {
 
@@ -22,6 +26,8 @@ function App() {
 
       <Routes>
         {/*<Route path="/users" element={<Users />} />*/}
+        <Route path="Legal" element={<Legal />} />
+        <Route path="/Websites-for-sale" element={<Webdev />} />
         <Route path="/" element={<Home />} />
       </Routes>
     </Router>
