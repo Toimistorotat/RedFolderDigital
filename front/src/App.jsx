@@ -26,9 +26,9 @@ function App() {
 
       <Routes>
         {/*<Route path="/users" element={<Users />} />*/}
-        <Route path="Legal" element={<Legal />} />
-        <Route path="/Websites-for-sale" element={<Webdev />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/RedFolderDigital/Legal" element={<Legal />} />
+        <Route path="/RedFolderDigital/Websites-for-sale" element={<Webdev />} />
+        <Route path="/RedFolderDigital/" element={<Home />} />
       </Routes>
     </Router>
   )
