@@ -9,7 +9,7 @@ function Header() {
                 <div className="backdrop-blur">
                     <h1
                         className="text-4xl font-bold px-4 py-2 border rounded-2xl text-[rgb(244,68,55)] border-[rgb(244,68,55)] hover:cursor-pointer"
-                        onClick={() => navigate("/")}>
+                        onClick={() => navigate("/RedFolderDigital/")}>
                         RedFolder Digital
                     </h1>
                 </div>
