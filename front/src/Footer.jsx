@@ -22,8 +22,8 @@ function Footer() {
                         <div>
                             <p className="font-semibold mb-2">Legal</p>
                             <ul className="space-y-1">
-                                <li onClick={() => navigate("/Legal#Privacy-Policy")} className="hover:text-[rgb(244,68,55)] transition cursor-pointer">Privacy Policy</li>
-                                <li onClick={() => navigate("/Legal#Terms-of-Service")} className="hover:text-[rgb(244,68,55)] transition cursor-pointer">Terms of Service</li>
+                                <li onClick={() => navigate("/RedFolderDigital/Legal#Privacy-Policy")} className="hover:text-[rgb(244,68,55)] transition cursor-pointer">Privacy Policy</li>
+                                <li onClick={() => navigate("/RedFolderDigital/Legal#Terms-of-Service")} className="hover:text-[rgb(244,68,55)] transition cursor-pointer">Terms of Service</li>
                             </ul>
                         </div>
 

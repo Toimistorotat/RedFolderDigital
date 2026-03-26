@@ -19,14 +19,14 @@ function Header() {
                             <ul className="flex p-1 text-lg border border-black rounded-2xl">
                                 <li
                                     className="hover:text-[rgb(244,68,55)] text-2xl cursor-pointer transition"
-                                    onClick={() => navigate("/Websites-for-sale")}
+                                    onClick={() => navigate("/RedFolderDigital/Websites-for-sale")}
                                 >
                                     Services
                                 </li>
                                 <li className="mr-3 ml-3 text-xl">|</li>
                                 <li
                                     className="hover:text-[rgb(244,68,55)] text-2xl cursor-not-allowed transition"
-                                    //onClick={() => navigate("/Contact")}
+                                    //onClick={() => navigate("/RedFolderDigital/Contact")}
                                 >
                                     Contact
                                 </li>
