@@ -11,8 +11,11 @@ function Home() {
 
                 <main className="flex-1">
                     <div className="flex justify-center flex-col items-center content-center">
-                        <p>TEST headline</p>
-                        <h1>TEST desc</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 max-w-2xl">Websites built for small businesses</h1>
+                        <p className="text-gray-600 max-w-xl">
+                        RedFolder Digital is a Finland-based business providing website development and hosting for small businesses.
+                        Each website is tailored to the client, with optional hosting and paid updates when changes are needed.
+                        </p>
                     </div>
 
                     <div className="flex flex-col items-center mt-12">
@@ -29,7 +32,7 @@ function Home() {
 
                             <div
                                 className="md:col-span-2 rounded-xl bg-white border-2 border-gray-300 p-6 shadow-[8px_8px_0px_rgba(0,0,0,0.25)] hover:shadow-[10px_10px_0px_rgba(0,0,0,0.28)] hover:-translate-x-2.5 hover:-translate-y-0.5 hover:scale-[1.02] transition duration-200 ease-out"
-                                onClick={() => navigate("/RedFolderDigital/Hosting")}
+                                onClick={() => navigate("/RedFolderDigital/Websites-for-sale#hosting")}
                             >
                                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Hosting</h3>
                                 <p className="text-gray-600">

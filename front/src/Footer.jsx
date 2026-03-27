@@ -6,7 +6,7 @@ function Footer() {
     return (
         <footer className="mt-7">
             <div className="flex flex-col items-center">
-                <div className="border-3 rounded-3xl border-[rgb(244,68,55)] p-2">
+                <div className="border-3 rounded-3xl border-[rgb(244,68,55)] p-2 mb-8">
                     <p>RedFolderDigital Is A NYT Corporation</p>
 
                     <div className="grid grid-cols-2 gap-8 mt-3 text-sm">
